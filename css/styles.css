@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 1s ease; }
+
+body {
+  background-color: #E0E0E0; }
+
+main {
+  background-color: white;
+  border: 2px dotted #BBBAFD;
+  margin-top: 85px;
+  font-size: 18px; }
+  main * {
+    margin-bottom: 15px; }
+
+header {
+  text-align: center; }
+  header h2 {
+    font-weight: bold; }
+  header img:first-child {
+    margin-top: -85px; }
+  header span {
+    color: #526d86; }
+
+section {
+  margin: 10px 30px; }
+  section h3 {
+    color: #526d86;
+    font-weight: bold; }
+  section .contact-info span {
+    margin-right: 20px; }
+
+.education {
+  background: #E0E0E0;
+  padding: 15px 15px 15px 0; }
+  .education dt {
+    font-weight: normal; }
+
+.list-group p {
+  margin-bottom: 15px;
+  font-weight: bold; }
+
+.projects {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .projects img {
+    margin: 10px; }
+
+footer {
+  background-color: #526d86;
+  color: white;
+  height: 60px;
+  font-weight: bold;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  footer p {
+    margin: 0; }
+
+@media screen and (max-width: 991px) {
+  section .second-row {
+    margin-top: 40px; } }
+
+/*@media screen and (max-width: 1199px) and (min-width: 587px) {  /* entre 587 y 1199 */
